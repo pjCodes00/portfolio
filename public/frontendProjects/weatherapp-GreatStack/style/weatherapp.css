@@ -1,0 +1,112 @@
+
+
+p{
+ margin:0
+}
+
+.background{
+ position: fixed;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ display: flex;
+ gap: 25px;
+ flex-direction: column;
+ justify-content:center;
+ align-items:center;
+ background-color: rgb(38, 37, 37);
+}
+
+
+.main-container{
+ width:300px;
+ background-color: rgb(130, 248, 208);
+
+}
+
+.input-search-div{
+ margin: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.input{
+ height: 28px;
+ width: 180px;
+ border-radius: 50px;
+ border: none; 
+ padding: 4px 15px;
+ margin-right: 10px;
+}
+
+.input::placeholder{
+ font-size: 12px;
+
+}
+
+.input:focus{
+ outline: none;
+}
+
+.fa-magnifying-glass{
+ background-color: white;
+ width: 13px;
+ height: 13px;
+ padding: 10px;
+ border-radius: 18px;
+ font-size: 13px;
+ cursor: pointer;
+}
+
+.weather-display-div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50px;
+ gap:15px;
+}
+
+.weather-stats-main-div{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 50px;
+}
+
+.weather-stats-div1{
+ display: flex;
+ align-items: top;
+ margin:20px;
+ 
+}
+
+.weather-stats-div2{
+ margin-right: 10px;
+}
+
+
+.fa-wind,
+.fa-water{
+ font-size: 25px;
+}
+
+.fa-icon{
+ color: rgb(71, 8, 245);
+ font-size: 40px;
+}
+
+
+.text{
+ font-size: 20px;
+ font-weight: bold;
+ 
+}
+
+.err-msg{
+ text-align: center;
+ font-size: 20px;
+ margin-bottom: 20px;
+}
+

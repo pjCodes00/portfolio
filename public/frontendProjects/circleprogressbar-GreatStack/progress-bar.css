@@ -1,0 +1,66 @@
+ 
+      .background{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color:aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .first-circle{
+        width: 160px;
+        height: 160px;
+       
+        border-radius: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow:6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                   -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+        position: relative;
+          
+      
+      }
+
+      .second-circle{
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                    -0.5px -0.5px 0px  rgba(255, 255, 255, 1),
+                    0.5px 0.5px 0px  rgba(0, 0, 0, 0.15),
+                    0px 12px 10px -10px rgba(0, 0, 0, 0.05)
+        
+      }
+
+      circle{
+       fill: none;
+       stroke: url(#GradientColor);
+       stroke-width: 20px;
+       stroke-dasharray: 472;
+       stroke-dashoffset: 472;
+       animation: anim 2s linear forwards
+      }
+
+      svg{
+        position: absolute;
+        top:0;
+        left:0;
+      }
+
+      @keyframes anim{
+        100%{
+          stroke-dashoffset: 165;
+        }
+      }
+
+    

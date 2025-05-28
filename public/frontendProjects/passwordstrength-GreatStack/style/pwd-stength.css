@@ -1,0 +1,122 @@
+ 
+      body{
+       margin: 0;
+      }
+      p{
+        margin:0;
+      }
+
+      .background{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: rgb(39, 38, 38);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-container{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .input-btn-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .input{
+        width: 300px;
+        height: 45px;
+        border: 2px solid rgb(106, 53, 115);
+        background-color:  rgb(39, 38, 38);
+        box-sizing: border-box;
+        border-right: none;
+        padding-left: 10px;
+        color: white;
+        -webkit-text-fill-color: white
+      }
+
+     
+
+      .input:focus{
+        outline: none;
+      }
+
+      .button{
+        background-color: rgb(39, 38, 38);
+        border: 2px solid  rgb(106, 53, 115);
+        width: 40px;
+        height: 45px;
+        box-sizing: border-box;
+        border-left: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 2px;
+      }
+      .fa-solid{
+        color: rgb(230, 227, 227);
+        font-size: 22px;
+      }
+
+      .text-div{
+        margin-top: 10px;
+        
+      }
+
+      .text1{
+        color: rgb(6, 176, 6);
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .text2{
+        color: rgb(190, 190, 7);
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .text3{
+        color: rgb(245, 59, 59);
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .input1{
+        border: 2px solid rgb(240, 2, 2);
+        border-right: none;
+      }
+
+      .input2{
+        border: 2px solid rgb(133, 133, 57);
+        border-right: none;
+      }
+
+      .input3{
+        border: 2px solid rgb(6, 176, 6);
+        border-right: none;
+      }
+
+      .btn1{
+        border: 2px solid rgb(240, 2, 2);
+        border-left: none;
+      }
+
+      .btn2{
+        border: 2px solid rgb(133, 133, 57);
+        border-left: none;
+      }
+
+      .btn3{
+        border: 2px solid rgb(6, 176, 6);
+        border-left: none;
+      }
+    

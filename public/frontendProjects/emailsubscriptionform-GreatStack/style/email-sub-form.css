@@ -1,0 +1,101 @@
+ 
+       body{
+        font-family: Arial;
+       }
+      .image{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      .cover{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0, 0.7);
+      }
+
+      .main-container{
+        position: fixed;
+        left: 150px;
+        top: 200px;
+        width: 400px;
+        height: 300px;
+      }
+
+      .text1{
+        color: white;
+      }
+
+      .text2{
+        font-size: 30px;
+        font-weight: bold;
+        width: 320px;
+        color: white;
+        margin-bottom: 10px;
+      }
+
+      .text3{
+        font-size: 12px;
+        color: white;
+        margin-bottom: 15px;
+      }
+
+      .text4{
+        font-size: 14px;
+        color: rgb(8, 225, 8);
+      }
+
+      .text4-0{
+        font-size: 12px;
+        color: red;
+      }
+
+      .input-btn-div{
+        display: flex;
+        
+      }
+
+      .input{
+        height: 38px;
+        width: 230px;
+        border: none;
+        box-sizing: border-box;
+        padding-left: 10px;
+        margin-right: 0;
+      }
+
+      .input::placeholder{
+        font-size: 12px;
+      }
+
+      .input:focus{
+        outline: none;
+      }
+
+      .button{
+        height: 38px;
+        width: 50px;
+        margin-left: -5px;
+        border: none;
+        box-sizing: border-box;
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+      }
+
+      .fa-solid{
+        color: white;
+        font-size: 13px;
+      }
+
+    

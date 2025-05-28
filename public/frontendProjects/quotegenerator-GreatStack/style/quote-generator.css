@@ -1,0 +1,80 @@
+ 
+   .background{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgb(168, 156, 222);
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .main-container{
+    background-color: white;
+    width: 400px;
+    
+   }
+
+   .author-line-div{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 30px;
+
+   }
+   .line{
+    width: 15px;
+    border: none;
+    background-color: blue;
+    height: 2px;
+    
+
+   }
+
+   .line-div{
+    margin-right: 5px;
+   }
+
+   .button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   .quote{
+    text-align: center;
+    margin-top: 50px;
+   
+   }
+
+   .title{
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   .line-up{
+    width: 35px;
+    border: none;
+    background-color: blue;
+    height: 2px;
+    
+   }
+
+   .author-div{
+    margin-right: 10px;
+   }
+
+   .new-quote-button{
+    margin-right: 10px;
+   }
+    
+   .quote-btn, .tweet-btn{
+   border: none;
+    background-color: plum;
+    color: black;
+    font-weight: bold;
+   }

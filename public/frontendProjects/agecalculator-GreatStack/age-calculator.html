@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Age Calculator</title>
+   <link rel="stylesheet" href="style/age-calculator.css">
+    <link rel="stylesheet" href="style/tutorial.css">
+       <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="background">
+       <div class="tutorial-cont">
+          <i class="fa-solid fa-file-video"></i>
+          <div class="tooltip">Watch tutorial</div>
+        </div>
+      <div class="main-container">
+        <div class="title">Javascript Age Calculator</div>
+        <div class="date-button-div">
+          <div >
+            <input type="date" class="input js-date-input">
+          </div>
+          <div>
+            <button class="js-calculate-button calc-btn">Calculate</button>
+          </div>
+        </div>
+
+        <div class="age js-date-container"></div>
+        <div class="err-msg">Please select a date!</div>
+
+      </div>
+
+      
+    </div>
+
+    <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/agecalculator.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+   
+
+
+    <script type="module" src="scripts/age-calculator.js"></script>
+    <script type="module" src="scripts/tutorial.js"></script>
+ 
+  </body>
+</html>

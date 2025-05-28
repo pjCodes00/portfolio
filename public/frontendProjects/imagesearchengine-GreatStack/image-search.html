@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Search Engine</title>
+    <link rel="stylesheet" href="style/image-search.css">
+    <link rel="stylesheet" href="style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="background">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+
+      <div class="title">Image search engine</div>
+
+      <div class="input-btn-div">
+        <input type="text" placeholder="Search anything here" class="js-search">
+        <button class="search-btn">Search</button>
+      </div>
+      <div class="err-msg">No images found!</div>
+
+      <div class="grid-container"></div>
+
+      <div><button class="more-btn">Show more</button></div>
+
+    </div>
+
+   <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/imagesearchengine.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+ <script type="module" src="scripts/image-search.js"></script>
+ <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>
+

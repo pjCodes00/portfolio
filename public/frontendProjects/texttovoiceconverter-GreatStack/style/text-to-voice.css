@@ -1,0 +1,123 @@
+
+      body{
+        font-family: Arial;
+        margin: 0;
+      }
+
+      p{
+        margin: 0;
+      }
+      .background{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: rgb(41, 3, 80);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-container{
+        width: 380px;
+        height: 300px;
+        
+      }
+
+      .container{
+        margin-left: 10px;
+      }
+
+      .text1{
+        font-size: 30px;
+        color: white;
+        
+        
+      }
+
+      .text2{
+        color:rgb(253, 56, 89);
+
+      }
+
+      hr{
+        background-color: white;
+        width: 150px;
+        border: none;
+        height: 3px;
+        margin-left: 205px;
+
+      }
+
+      textarea{
+        height: 150px;
+        width: 350px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(91, 50, 130);
+        margin: 20px 0;
+        outline: 0;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        
+      }
+
+     
+
+      .select-btn-div{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+       select{
+        width: 275px;
+        height: 32px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        background-color: rgb(91, 50, 130);
+        color: white;
+        outline: 0;
+        padding: 0 20px;
+        border: none;
+        appearance: none;
+        background-image: url(images/dropdown.png);
+        background-repeat:no-repeat;
+        background-size: 12px;
+        background-position-x: calc(100% - 15px);
+        background-position-y: 12px;
+        font-size: 10px;
+        cursor: pointer;
+      
+       
+
+      }
+
+
+      .button{
+        height: 32px;
+        width: 75px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        border: none;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        background-color: rgb(253, 56, 89);
+        cursor: pointer;
+      }
+
+      .fa-solid{
+        color: white;
+        font-size: 13px;
+      }
+
+    .err-msg{
+      color: white;
+      display: none;
+    }

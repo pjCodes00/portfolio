@@ -1,0 +1,104 @@
+ 
+      .background{
+        background-color: rgb(215, 212, 227);
+        position: fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+
+        
+      }
+
+      .main-container{
+        width: 500px;
+        height: 300px;
+        background-color: black;
+        position: relative;
+        box-sizing: border-box;
+        
+       
+      }
+       .time-container{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+       }
+
+       .time{
+        color: white;
+        font-size: 40px;
+        margin-bottom: 20px;
+
+       }
+
+       .icons-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        
+        
+      }
+
+     
+
+      .fa-circle-pause,
+      .fa-rotate-left{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        
+      }
+
+      .fa-circle-play{
+        color: white;
+        font-size: 50px;
+        cursor: pointer;
+      }
+
+
+       
+
+      .image-container{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        position: relative;
+      }
+
+      .black-cover{
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+        
+      .image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-color: rgb(49, 48, 48);
+      }
+
+     
+
+
+
+    
+  

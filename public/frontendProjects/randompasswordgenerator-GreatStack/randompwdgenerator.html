@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style/randompwdgenerator.css">
+     <link rel="stylesheet" href="style/tutorial.css">
+      <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="background">
+      <div class="tutorial-cont">
+        <i class="fa-solid fa-file-video"></i>
+        <div class="tooltip">Watch tutorial</div>
+      </div>
+
+      <div class="main-container">
+        <div class="title">Generate a <span class="title2">Random password</span></div>
+        <div>
+          <hr class="line">
+        </div>
+        <div class="input-copy-container">
+          <div>
+            <input class="js-input input-box" type="text" placeholder="Password">
+          </div>
+          <div>
+            <button class="js-copy copy">copy</button>
+          </div>
+        </div>
+        <div>
+          <button class="js-generate generate">Generate Password</button>
+        </div>
+        <div class="msg-cont">
+          Text Copied!
+         </div>  
+      </div>    
+    </div>
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/randompasswordgenerator.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+    <script type="module" src="scripts/randompwdgenerator.js"></script>
+    <script type="module" src="scripts/tutorial.js"></script>
+   
+  </body>
+</html>

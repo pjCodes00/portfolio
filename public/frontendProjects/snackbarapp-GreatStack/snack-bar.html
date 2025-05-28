@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Snack Bar App</title>
+   <link rel="stylesheet" href="style/snack-bar.css">
+   <link rel="stylesheet" href="style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="background"></div>
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+    <div class="button-container">
+      <div>
+        <button class="button js-success-button">Success</button>
+      </div>
+      <div class="error-div">
+        <button class="button js-err-button">Error</button>
+      </div>
+      <div>
+        <button class="button js-invalid-button">Invalid</button>
+      </div>
+    </div>
+
+    <div class="message-div js-message-div">
+      <div class="js-success-container success-container"></div>
+      <div class="js-err-container err-container"></div>
+      <div class="js-invalid-container invalid-container"></div>
+    </div>
+
+    <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/snackbarapp.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+  <script type="module" src="scripts/snack-bar.js"></script>
+    <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>

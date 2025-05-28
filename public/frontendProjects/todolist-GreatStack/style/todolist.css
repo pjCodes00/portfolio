@@ -1,0 +1,125 @@
+
+   body{
+    background-color: rgb(91, 6, 170);
+     gap: 25px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   }
+
+   .box{
+    width: 350px;
+    height: auto;
+   
+    background-color: white;
+    border-radius: 10px;
+    
+   }
+
+   .text1{
+    margin: 20px;
+   }
+
+   .input{
+    margin-left: 20px;
+    width: 250px;
+    height: 34px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(240, 237, 237);
+    border: 1px solid rgb(240, 237, 237);
+    border-right: none;
+    color: black;
+    padding-left: 15px;
+    font-size: 12px;
+    box-sizing: border-box;
+    outline: 0;
+   }
+
+   
+
+   .add-button{
+    padding: 9px 30px;
+    border: none;
+    background-color: orange;
+    margin-left: -30px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+   }
+   
+   .checkbox-div{
+   display: grid;
+   grid-template-columns: 20px 1fr 20px;
+   align-items: center;
+   margin: 10px 20px;
+   
+   }
+
+   .the-checkbox{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border: 2px solid orange;
+    position: relative;
+    cursor: pointer;
+   }
+
+   .the-checkbox:checked::after{
+    content: '\2713'; 
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    font-size: 16px;
+    left:0;
+    top:-4px;
+   }
+
+  
+
+   .delete-button{
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    
+
+   }
+
+   .delete-div{
+    margin-bottom: 5px;
+    
+    
+   }
+
+   .button-text{
+    margin-left: 10px;
+   }
+   .text-button{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+
+   }
+  
+
+
+   .toggled{
+    text-decoration: line-through;
+   }
+
+   .err-msg{
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      display: none;
+   }
+
+
+  
+    

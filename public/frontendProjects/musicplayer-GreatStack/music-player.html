@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style/music-player.css"></link>
+    <link rel="stylesheet" href="style/tutorial.css"></link>
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+
+  
+  </head>
+  <body>
+    <div class="background">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+      <div class="main-container">
+        <div class="first-icons-div">
+          <div class="less-than-div"><i class="fa-solid fa-less-than"></i></div>
+          <div class="bars-div"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <div class="lady-image-div">
+          <img class="lady-image" src="images/lady.jpg">
+        </div>
+        <div class="song-div">Willow</div>
+        <div class="artist-div">Taylor Swift</div>
+        <div >
+         <input type="range" value="0" class="progress-bar js-progress-bar">
+        </div>
+        <div class="last-icons-div">
+          <div class="back-div"><i class="fa-solid fa-backward"></i></div>
+            <button class="play-button js-play-button">
+              <i class="fa-solid fa-play"></i>
+            </button>
+          <div class="forward-div"><i class="fa-solid fa-forward"></i></div>
+        </div>
+        <audio class="js-audio" src="music/willow.mp3"></audio>
+
+      </div>
+    </div>
+
+    
+   <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/musicplayer.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+
+   <script type="module" src="scripts/music-player.js"></script>
+    <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>

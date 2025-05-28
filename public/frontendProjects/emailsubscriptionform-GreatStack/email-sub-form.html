@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Subscription Form</title>
+    <link rel="stylesheet" href="style/email-sub-form.css">
+    <link rel="stylesheet" href="style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+   
+  </head>
+  <body>
+    <img class="image" src="images/candle.jpg">
+    <div class="cover"></div>
+    <div class="main-container">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+      <p class="text1">Coming soon!</p>
+      <p class="text2">Our Brand New Website Is On It's Way</p>
+      <p class="text3">Subscribe for more details.</p>
+      <form class="input-btn-div" name="submit-to-google-sheet">
+        <input class="input" type="email" placeholder="Your email id" name="Email" required>
+        <button type="submit" class="button"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+      <p class="text4  js-message"></p>
+
+    </div>
+
+   <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/emailsubscriptionform.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+
+   <script type="module" src="scripts/email-sub-form.js"></script>
+   <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>

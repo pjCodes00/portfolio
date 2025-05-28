@@ -1,0 +1,128 @@
+
+      body{
+        font-family: Arial;
+      }
+
+      p{
+        margin: 0;
+      }
+      .image{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .cover{
+        position: fixed;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color: rgba(210, 39, 199, 0.3);
+      }
+
+      .header{
+        position: fixed;
+        top:20px;
+        left: 100px;
+   
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+      }
+
+      .main-container{
+        position: fixed;
+        top: 200px;
+        left: 100px;
+        width: 400px;
+        height: 300px;
+        
+      }
+
+      .text1{
+        color: white;
+        font-size: 10px;
+        margin-bottom: 20px;
+      }
+
+      .text2{
+       color: white;
+       font-size: 35px;
+       font-weight: bold;
+       margin-bottom: 15px;
+      }
+
+      .text3{
+        color: rgb(244, 80, 107);
+      }
+
+      .main-time-div{
+        display: flex;
+       margin-bottom: 40px;
+        
+      }
+
+      .sub-time-div{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .time1{
+        color: white;
+        font-size: 35px;
+        font-weight: bold;
+        margin-right: 18px;
+      }
+
+      .time2{
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      button{
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 5px 15px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+      }
+
+      .fa-solid{
+        font-size: 22px;
+      }
+       
+      .image-container{
+        position: fixed;
+        right: 200px;
+        bottom: 30px;
+       
+        
+      }
+
+      @keyframes rocket{
+        0%{
+          opacity:0;
+          transform: translateY(0)
+        }
+        100%{
+          opacity: 1;
+          transform: translateY(-100vh)
+        }
+      }
+
+      .fa-space-awesome{
+        font-size: 100px;
+        color: rgb(245, 20, 58);
+        animation: rocket 4s linear infinite;
+      }
+    

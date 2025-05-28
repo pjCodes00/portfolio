@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style/weatherapp.css">
+     <link rel="stylesheet" href="style/tutorial.css">
+  </head>
+  <body>
+  <div class="background">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+    
+    <div class="main-container">
+      <div class="input-search-div">
+        <input class="input js-input" type="text" placeholder="city">
+        <i class="fa-solid fa-magnifying-glass js-search"></i>
+      </div>
+      <div class="js-weather-container weather-container"></div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/weatherapp.mp4" type="video/mp4">    
+      </video>
+    </div>
+  </div>
+
+   <script type="module" src="scripts/weatherapp.js"></script>
+  <script type="module" src="scripts/tutorial.js"></script>
+  
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style/image-gallery.css">
+    <link rel="stylesheet" href="style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+    
+   
+  </head>
+  <body>
+    <div class="background">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+
+    <div class="container">
+      <div class="left-container"><i class="fa-solid fa-circle-left js-left-button"></i></div>
+
+      <div class="middle-container js-image-container">
+        <div class="image imagee"><img class="pic" src="images/pic1.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic2.jpg"></div>
+        <div class="image"><img class="pic" src="images/pic3.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic4.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic5.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic6.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic7.jpg"></div>
+        <div class="image imagee"><img class="pic" src="images/pic8.jpg"></div>
+        <div class="image"><img class="pic" src="images/pic9.jpg"></div>
+      </div>
+
+      <div class="right-container"><i class="fa-solid fa-circle-right js-right-button" ></i></div>
+
+    </div>
+
+   <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/imagegallery.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+
+   <script type="module" src="scripts/image-gallery.js"></script>
+   <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>

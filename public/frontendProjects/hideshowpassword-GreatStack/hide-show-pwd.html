@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hide/Show Password</title>
+    <link rel="stylesheet" href="style/hide-show-pwd.css">
+    <link rel="stylesheet" href="style/tutorial.css">
+    <script src="https://kit.fontawesome.com/80ccbcef3b.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body> 
+    <div class="background">
+    <div class="tutorial-cont">
+     <i class="fa-solid fa-file-video"></i>
+     <div class="tooltip">Watch tutorial</div>
+    </div>
+
+      <div class="main-container">
+        <input class="input js-password-input" type="password" placeholder="Enter Password">
+        <button class="js-password-btn password-btn"><i class="fa-solid fa-eye-slash"></i></button>
+      </div>
+    </div>
+
+   <div class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <video class="tutorial-video" controls>
+        <source src="./videos/hideshowpassword.mp4" type="video/mp4">    
+      </video>
+      <video></video>
+    </div>
+  </div>
+
+ 
+    <script type="module" src="scripts/hide-show-pwd.js"></script>
+    <script type="module" src="scripts/tutorial.js"></script>
+  </body>
+</html>
