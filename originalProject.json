@@ -1,0 +1,7 @@
+[{
+  "image":"images/witchyImage/witchyshop.png",
+  "title": "THE WITCHY SHOP",
+  "description": "An e-commerce web application where users can register, search for products using filters, add items to their cart, place orders, and cancel them if needed. The website also features a built-in interactive game, where users can cast a spell by following a sequence of magical steps.",
+  "link": "https://thebewitchingbazaar.onrender.com",
+  "github":"https://github.com/pjCodes00/thebewitchingbazaar"
+}]

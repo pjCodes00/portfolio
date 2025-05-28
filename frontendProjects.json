@@ -1,0 +1,214 @@
+[
+  {
+  "image": "/images/frontendImages/weatherapp.png",
+  "title":"Weather App",
+  "description": "Enter a city name to get the current weather details for that location.",
+  "link": "/frontendProjects/weatherapp-GreatStack/weatherapp",
+  "github":"https://github.com/pjCodes00/weatherapp"
+  },
+  {
+    "image": "/images/frontendImages/todolist.png",
+    "title":"To-Do-List App",
+    "description": "Add a task, complete the task, delete the task",
+     "link": "/frontendProjects/todolist-GreatStack/todolist",
+     "github":"https://github.com/pjCodes00/todolist"
+  },
+  {
+    "image": "/images/frontendImages/quizapp.png",
+    "title":"Quiz App",
+    "description": "Answer multiple choice questions and get a score",
+     "link": "/frontendProjects/quizapp-GreatStack/quizapp",
+     "github":"https://github.com/pjCodes00/quizapp"
+  },
+  {
+    "image": "/images/frontendImages/randompasswordgenerator.png",
+    "title":"Random Password Generator App",
+    "description": "Click a button to get a random password",
+     "link": "/frontendProjects/randompasswordgenerator-GreatStack/randompwdgenerator",
+     "github":"https://github.com/pjCodes00/randompasswordgenerator"
+  },
+  {
+    "image": "/images/frontendImages/notesapp.png",
+    "title":"Notes App",
+    "description": "Click on a button to open a textbox. Delete the textbox",
+     "link": "/frontendProjects/notesapp-GreatStack/notes-app",
+     "github":"https://github.com/pjCodes00/notesapp"
+  },
+  {
+  "image": "/images/frontendImages/agecalculator.png",
+  "title":"Age Calculator App",
+  "description": "Choose your birthday from the calender to get your age calculated",
+   "link": "/frontendProjects/agecalculator-GreatStack/age-calculator",
+   "github":"https://github.com/pjCodes00/agecalculator"
+  },
+  {
+  "image": "/images/frontendImages/quotegenerator.png",
+  "title":"Quote Generator Website",
+  "description": "Click on a button to generate a quote, post it on twitter",
+   "link": "/frontendProjects/quotegenerator-GreatStack/quote-generator",
+   "github":"https://github.com/pjCodes00/quotegenerator"
+  },
+  {
+    "image": "/images/frontendImages/qrcodegenerator.png",
+    "title":"QR code Generator App",
+    "description": "Type in a text and get a qr code",
+     "link": "/frontendProjects/qrcodegenerator-GreatStack/qr-code-generator",
+     "github":"https://github.com/pjCodes00/qrcodegenerator"
+  },
+  {
+    "image": "/images/frontendImages/snackbarapp.png",
+    "title":"Toast Notification/Snack bar App",
+    "description": "Click on the buttons to get a toast notification",
+     "link": "/frontendProjects/snackbarapp-GreatStack/snack-bar",
+     "github":"https://github.com/pjCodes00/snackbarapp"
+  },
+  {
+    "image": "/images/frontendImages/musicplayer.png",
+    "title":"Music Player",
+    "description": "Play/pause the song",
+     "link": "/frontendProjects/musicplayer-GreatStack/music-player",
+     "github":"https://github.com/pjCodes00/musicplayer"
+},
+  {
+  "image": "/images/frontendImages/stopwatch.png",
+  "title":"Stop watch",
+  "description": "Play or pause the stop watch",
+   "link": "/frontendProjects/stopwatch-GreatStack/stop-watch",
+   "github":"https://github.com/pjCodes00/stopwatch"
+  },
+  {
+  "image": "/images/frontendImages/calculator.png",
+  "title":"Calculator",
+  "description": "Calculate",
+   "link": "/frontendProjects/calculator-GreatStack/calculator",
+   "github":"https://github.com/pjCodes00/calculator"
+  },
+  {
+  "image": "/images/frontendImages/popup.png",
+  "title":"Popup",
+  "description": "Click on the submit button to get a popup",
+   "link": "/frontendProjects/popup-GreatStack/pop-up",
+   "github":"https://github.com/pjCodes00/popup"
+  },
+  {
+  "image": "/images/frontendImages/hideshowpassword.png",
+  "title":"Hide/Show Password",
+  "description": "Click on the eye-icon to show/hide password",
+   "link": "/frontendProjects/hideshowpassword-GreatStack/hide-show-pwd",
+   "github":"https://github.com/pjCodes00/hideshowpassword"
+  },
+  {
+  "image": "/images/frontendImages/darkmode.png",
+  "title":"Dark Mode",
+  "description": "Click on the moon/sun icon to switch themes",
+   "link": "/frontendProjects/darkmode-GreatStack/dark-mode",
+   "github":"https://github.com/pjCodes00/darkmode"
+  },
+  {
+  "image": "/images/frontendImages/formvalidation.png",
+  "title":"Form Validation",
+  "description": "Fill in the form that validates each input",
+   "link": "/frontendProjects/formvalidation-GreatStack/form-validation",
+   "github":"https://github.com/pjCodes00/formvalidation"
+  },
+  {
+  "image": "/images/frontendImages/imagegallery.png",
+  "title":"Image Gallery",
+  "description": "Scroll left and right through the image gallery to view images",
+   "link": "/frontendProjects/imagegallery-GreatStack/image-gallery",
+   "github":"https://github.com/pjCodes00/imagegallery"
+  },
+  {
+  "image": "/images/frontendImages/emailsubscriptionform.png",
+  "title":"Email Subscription Form",
+  "description": "Type in your email and submit it",
+   "link": "/frontendProjects/emailsubscriptionform-GreatStack/email-sub-form",
+   "github":"https://github.com/pjCodes00/emailsubscriptionform"
+  },
+  {
+  "image": "/images/frontendImages/passwordstrength.png",
+  "title":"Password Strength",
+  "description": "Checks how strong the password typed in is",
+   "link": "/frontendProjects/passwordstrength-GreatStack/pwd-strength",
+   "github":"https://github.com/pjCodes00/passwordstrength"
+  },
+  {
+  "image": "/images/frontendImages/texttospeechconverter.png",
+  "title":"Text to Speech Converter",
+  "description": "Type in a text to convert it into speech",
+   "link": "/frontendProjects/texttovoiceconverter-GreatStack/text-to-voice",
+   "github":"https://github.com/pjCodes00/texttovoiceconverter.html"
+  },
+  {
+  "image": "/images/frontendImages/websitecomingsoon.png",
+  "title":"Website Coming Soon",
+  "description": "Website with live countdown and css animation",
+   "link": "/frontendProjects/websitecomingsoon-GreatStack/website",
+   "github":"https://github.com/pjCodes00/websitecomingsoon"
+  },
+  {
+    "image": "/images/frontendImages/backgroundeffect.png",
+    "title":"Image Background Change Effect",
+    "description": "To display background move cursor left and right",
+     "link": "/frontendProjects/backgroundeffect-GreatStack/background-effect",
+     "github":"https://github.com/pjCodes00/backgroundeffect"
+  },
+  {
+    "image": "/images/frontendImages/minicallender.png",
+    "title":"Mini Calender",
+    "description": "Calender shows todays date",
+     "link": "/frontendProjects/minicallender-GreatStack/mini-callender",
+     "github":"https://github.com/pjCodes00/minicallender"
+  },
+  {
+    "image": "/images/frontendImages/selectmenu.png",
+    "title":"Select Menu Design",
+    "description": "Select an option from the drop down",
+     "link": "/frontendProjects/selectmenu-GreatStack/select-menu",
+     "github":"https://github.com/pjCodes00/selectmenu"
+  },
+  {
+    "image": "/images/frontendImages/circleprogressbar.png",
+    "title":"Circular Progress Bar",
+    "description": "circular progress bar with gradient color",
+     "link": "/frontendProjects/circleprogressbar-GreatStack/progress-bar",
+     "github":"https://github.com/pjCodes00/circleprogressbar"
+  },
+  {
+    "image": "/images/frontendImages/productpagedesign.png",
+    "title":"Product Page Design",
+    "description": "An e-commerce product page",
+     "link": "/frontendProjects/productpagedesign-GreatStack/product-page",
+     "github":"https://github.com/pjCodes00/productpagedesign"
+    },
+    {
+      "image": "/images/frontendImages/cryptocurrencywebsite.png",
+      "title":"Cryptocurrency Website",
+      "description": "Displays current values of coins",
+       "link": "/frontendProjects/cryptocurrencywebsite-GreatStack/crypto-website",
+       "github":"https://github.com/pjCodes00/cryptocurrencywebsite"
+    },
+    {
+      "image": "/images/frontendImages/digitalclock.png",
+      "title":"Digital Clock",
+      "description": "Clock displays current time",
+       "link": "/frontendProjects/digitalclock-GreatStack/digital-clock",
+       "github":"https://github.com/pjCodes00/digitalclock"
+
+    },
+    {
+      "image": "/images/frontendImages/draganddrop.png",
+      "title":"Drag and Drop",
+      "description": "Drag and drop items from one box to another",
+       "link": "/frontendProjects/draganddrop-GreatStack/drag-drop",
+       "github":"https://github.com/pjCodes00/draganddrop"
+    },
+    {
+      "image": "/images/frontendImages/imagesearchengine.png",
+      "title":"Image Search Engine",
+      "description": "Type in a name to display images",
+       "link": "/frontendProjects/imagesearchengine-GreatStack/image-search",
+       "github":"https://github.com/pjCodes00/imagesearchengine"
+    }
+      
+]
