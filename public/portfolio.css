@@ -20,6 +20,7 @@
 
       .white-mode .header{
         background-color: rgb(232, 229, 229);
+        color: black;
       }
 
       .white-mode .header-btn{
@@ -55,6 +56,23 @@
       .white-mode .image-cont-1{
         border: 2px solid black;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.553);
+      }
+
+      .white-mode .contact-cont{
+          background-color: whitesmoke;
+        color: black;
+        border: 2px solid rgb(141, 141, 141);
+        box-shadow: 2px solid rgba(102, 102, 102, 0.763);
+      }
+
+      .white-mode .git-link{
+        color: black;
+      }
+
+      .white-mode .git-link:hover{
+        color: blue;
+        scale: 1.05;
+        text-decoration: underline;
       }
 
       .white-mode .grid-image{
@@ -112,8 +130,8 @@
       .white-mode .about-cont{
         background-color: whitesmoke;
         color: black;
-        border: 2px solid rgb(53, 52, 52);
-        box-shadow: 2px solid rgba(0, 0, 0, 0.763);
+        border: 2px solid rgb(141, 141, 141);
+        box-shadow: 2px solid rgba(116, 115, 115, 0.763);
       }
 
       .white-mode .res-cert-title{
