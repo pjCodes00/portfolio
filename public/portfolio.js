@@ -1,7 +1,7 @@
  
 
     const projectBtn= document.querySelectorAll('.btn-cont')
-    const  mainConts= document.querySelectorAll('.main-container-1, .main-container-2, .main-container-3')
+    const  mainConts= document.querySelectorAll('.main-container-1, .main-container-2, .main-container-3, .main-container-4')
     const arrows= document.querySelectorAll('.fa-arrow-down')
     const modeBtn= document.querySelector('.fa-sun')
     const allProjConts= document.querySelectorAll('.all-proj-cont')
@@ -105,6 +105,38 @@
     }
 
     fetchBackendProj()
+
+     async function fetchFccProj() {
+      const response= await fetch('/api/v1/fcc')
+
+      const data= await response.json()
+      console.log(data)
+
+      const projects= data.projects
+
+      let html=''
+      projects.forEach((project) => {
+        html += `
+         <div class="grid-box">
+            <div class="grid-image">
+              <img class="backend-image" src="${project.image}">
+            </div>
+            <div class="grid-description">
+              <p class="project-title">${project.title}</p>
+              <p>${project.description}</p>
+            </div>
+            <div class="grid-btn">
+              <a href="${project.link}" target="_blank" class="proj-git-btn view-project">View project</a>
+              <a href="${project.github}" target="_blank" class="proj-git-btn">Github</a>
+            </div>
+          </div>
+        `
+      })
+
+      document.querySelector('.main-container-4').innerHTML= html
+    }
+
+    fetchFccProj()
 
     async function fetchFrontendProj() {
       const response= await fetch('/api/v1/frontend')

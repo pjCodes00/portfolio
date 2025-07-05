@@ -1,13 +1,13 @@
 const express= require('express')
-const OriginalProject= require('../models/OriginalProject')
+const FccProject= require('../models/FccProject')
 const {StatusCodes}= require('http-status-codes')
 const {BadRequestError, UnauthenticatedError}= require('../errors')
 
 const getAllProjects= async(req, res) => {
+  
+   const projects= await FccProject.find({})
 
-  const projects= await OriginalProject.find({})
-
-  res.status(StatusCodes.OK).json({projects, count: projects.length})
+   res.status(StatusCodes.OK).json({projects, count: projects.length})
 }
 
 module.exports= getAllProjects

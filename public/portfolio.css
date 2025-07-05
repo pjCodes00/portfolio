@@ -251,7 +251,7 @@
           border: 2px solid rgb(0, 21, 128);
        box-shadow: 0 0 10px rgb(151, 170, 233);
         width: 900px;
-        height: 860px;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         margin-top: 30px;
@@ -321,6 +321,23 @@
 
       .contact-info{
         font-size: 16.5px;
+      }
+
+      .github{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .git-link{
+        text-decoration: none;
+        color: white;
+      }
+
+      .git-link:hover{
+        color:antiquewhite;
+        scale: 1.05;
+        text-decoration: underline;
       }
 
       .link{
@@ -458,11 +475,9 @@
       .backend-proj-cont{
          background-color: rgb(38, 40, 71);
         padding: 25px 25px 15px 25px;
-        /*height: 400px;*/
         height: auto;
       }
-      .main-container-2{
-      /*  background-color: aqua;*/
+      .main-container-2, .main-container-4{
         height: 300px;
         box-sizing: border-box;
         display: grid;
