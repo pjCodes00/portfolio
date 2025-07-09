@@ -252,6 +252,7 @@
         height: 200px;
         display: block;
         margin: 20px auto;
+        object-fit: contain;
       }
 
       .parag-cont{
@@ -341,18 +342,18 @@
         font-size: 16.5px;
       }
 
-      .github{
+      .github, .linkedin{
         display: flex;
         align-items: center;
         gap: 10px;
       }
 
-      .git-link{
+      .git-link, .linkedin-link{
         text-decoration: none;
         color: white;
       }
 
-      .git-link:hover{
+      .git-link:hover, .linkedin-link:hover{
         color:antiquewhite;
         scale: 1.05;
         text-decoration: underline;
